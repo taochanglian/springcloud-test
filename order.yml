@@ -1,3 +1,9 @@
+server:
+  port: 8003
+
+env: prod
+
+fork: release
 spring:
   application:
     name: order

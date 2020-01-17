@@ -1,3 +1,10 @@
+server:
+  port: 8003
+
+env: dev
+
+fork: release
+
 spring:
   application:
     name: order
@@ -14,8 +21,6 @@ eureka:
       defaultZone: http://eurekaserver1:7001/eureka/,http://eurekaserver2:7002/eureka/,http://eurekaserver3:7003/eureka/
   instance:
     instance-id: order:8003
-    prefer-ip-address: true
-server:
-  port: 8003
-env: dev
-fork: release
+    prefer-ip-address: true    
+    
+    

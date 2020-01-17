@@ -1,3 +1,9 @@
+server:
+  port: 8003
+
+env: test
+
+fork: release
 spring:
   application:
     name: order
@@ -15,6 +21,3 @@ eureka:
   instance:
     instance-id: order:8003
     prefer-ip-address: true
-server:
-  port: 8003
-env: test
