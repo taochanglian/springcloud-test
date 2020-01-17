@@ -15,6 +15,7 @@ eureka:
   instance:
     instance-id: order:8003
     prefer-ip-address: true
+
 server:
   port: 8003
 env: dev
